@@ -9,6 +9,7 @@ import org.springframework.context.ConfigurableApplicationContext;
 
 @SpringBootApplication
 @EnableConfigurationProperties(SpringBootJasyptApplication.TopSecret.class)
+@EnableEncryptableProperties
 public class SpringBootJasyptApplication {
 
     public static void main(String[] args) {
